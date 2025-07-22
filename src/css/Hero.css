@@ -1,0 +1,79 @@
+.hero-bg-img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.hero.section {
+  margin-top: 80px;
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+  background: #111;
+}
+
+.hero .container, 
+.hero .row,
+.hero .col-xl-4 {
+  position: relative;
+  z-index: 1;
+}
+
+
+.fade-up {
+  font-weight: 1000;
+  animation: fadeUp 1s ease forwards;
+  opacity: 12;
+}
+
+.fade-up.delay-100 {
+  animation-delay: 0.1s;
+}
+.fade-up.delay-200 {
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.btn-get-started {
+  font-weight: 600;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+}
+
+
+.btn-watch-video {
+  font-size: 1rem;
+  transition: background 0.2s;
+  border-radius: 25px;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+}
+
+.btn-watch-video i {
+  font-size: 1.5rem;
+}
+
+
+.dark-background {
+  background-color: #111 !important;
+}
