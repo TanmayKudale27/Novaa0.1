@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header id="header" className="header fixed-top d-flex align-items-center shadow-sm bg-white">
+    <header id="heder" className="header fixed-top d-flex align-items-center shadow-sm bg-white">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="/" className="logo d-flex align-items-center text-decoration-none">
           <h1 className="sitename mb-0">Nova</h1>
@@ -21,16 +21,10 @@ const Header = () => {
               <a href="/" className="nav-link">Home</a>
             </li>
             <li className="nav-item">
-              <a href="/about" className="nav-link">About</a>
+              <a href="/hero" className="nav-link">About</a>
             </li>
             <li className="nav-item">
-              <a href="/services" className="nav-link">Services</a>
-            </li>
-            <li className="nav-item">
-              <a href="/portfolio" className="nav-link">Portfolio</a>
-            </li>
-            <li className="nav-item">
-              <a href="/team" className="nav-link">Team</a>
+              <a href="/features" className="nav-link">Features</a>
             </li>
             <li className="nav-item">
               <a href="/blog" className="nav-link">Blog</a>
@@ -57,7 +51,7 @@ const Header = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <a href="/contact" className="nav-link">Contact</a>
+              <a href="/callAction" className="nav-link">Contact</a>
             </li>
           </ul>
         </nav>

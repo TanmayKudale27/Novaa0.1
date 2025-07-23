@@ -1,0 +1,73 @@
+.services.section {
+  padding: 60px 60px 60px 60px; 
+  background-color: #fff;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section-title p {
+  font-size: 16px;
+  color: #666;
+}
+
+.service-item {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  align-items: flex-start;
+}
+
+.service-item:hover {
+  transform: translateY(-6px);
+  background-color: #fff;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-item .icon {
+  font-size: 40px;
+  margin-right: 20px;
+  line-height: 1;
+}
+
+.service-item .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.service-item .description {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.readmore {
+  display: inline-block;
+  font-weight: 500;
+  text-decoration: none;
+  color: #f82249;
+  transition: color 0.3s;
+}
+
+.readmore i {
+  margin-left: 5px;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.readmore:hover {
+  color: #d20e3b;
+}
